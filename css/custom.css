@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+.side-nav-img{
+    padding:0;
+    margin-right: 0;
+}
+
+.side-nav{
+    background-color: black;
+}
+
+.side-nav li{
+    margin-top: 60px;
+}
+
+.side-nav-item{
+    color: white;
+}
+
+.presenca {
+    display: flex;
+    position:relative;
+}
+
+.imagem-cabecalho {
+    position:absolute;
+    display:table-cell;
+    background: url("../images/pics/presenca.png") no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 100%;
+}
+
+
+
+.dados-reuniao{
+    display: table-cell;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.dados-reuniao ul{
+    margin:0;
+    padding:0;
+}
+
+.form-intro, .agradecimento{
+    margin-top:6rem;
+    width: 50%;
+    margin: 6rem auto;
+
+}
+
+.collection-item{
+    margin-top:30px;
+}
+
+#data-treinamento, #tema, #solicitante, #tecnico{
+    font:normal 25pt Arial;
+    padding-top:20px;
+}
+
+label #pergunta1, #pergunta2, #pergunta3, #pergunta4{
+    font:normal 16pt Arial;
+    padding-top:20px;
+}
+
+.menu-parag{
+    line-height: 12px;
+    font:normal 12pt Arial;
+}
+
+#cod-palestra{
+    font:normal 40pt Arial;
+    padding-top:20px;
+    padding-left:20px;
+}
+
+#overlay {
+    position: absolute; /* Sit on top of the page content */
+    /* display: none;  Hidden by default */
+    top:0;
+    left:0;
+    margin: 0;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+   
+    background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+
+#titulo-treinamento{
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 30px;
+        color: white;
+        transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+    
+}
+
+#header{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer .card{
+    max-height: 200px;
+}
+
+.img-footer{
+    margin-top: 0;
+    
+}
