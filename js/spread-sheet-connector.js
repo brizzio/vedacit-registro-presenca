@@ -168,7 +168,7 @@ $(document).ready(function(){
                 <h5>${obj.mensagem}
                 </div>
                 <div class="card-action">
-                <a href="#">Fechar</a>
+                <a href="about:blank">Fechar</a>
                 </div>
             </div>
             </div>
