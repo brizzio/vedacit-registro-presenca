@@ -125,3 +125,73 @@ footer .card{
     margin-top: 0;
     
 }
+
+@media only screen and (max-width: 600px) {
+    .nav-wrapper a {
+      font-size: 20px;
+    }
+
+    #submit-get-palestra {
+        display: inline;
+        font-size: 9px;
+
+      }
+    .btn1 .btn1-ico{
+        display:none;
+    }
+
+    #cod-palestra{
+        font:normal 30pt Arial;
+        padding-top:20px;
+        padding-left:10px;
+    }
+
+   
+    #data-treinamento, #tema, #solicitante, #tecnico{
+        font:normal 15pt Arial;
+        padding-left:30px;
+       
+    }
+    
+    #cadastrar label {
+        font:normal 15pt Arial;
+        
+       
+    }
+
+    .img-footer{
+        -ms-flex-item-align: center;
+        margin:0;
+        height: 230px;
+    }
+
+    #header .titulo{
+        font:normal 25pt Arial;
+        padding-left:10px;
+        text-align: center;
+       
+    }
+
+    .pergunta .pergunta-texto{
+        font:normal 12pt Arial;
+        padding-left:10px;       
+    }
+
+    .pergunta .score input label{
+        font:normal 35pt Arial;
+    }
+
+    .agradecimento{
+        width:100%;
+    }
+
+    .card-image{
+        display:none;
+    }
+
+    .agradecimento .card horizontal .card-stacked{
+        width:100%;
+    }
+
+
+  }

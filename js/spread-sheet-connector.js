@@ -156,7 +156,7 @@ $(document).ready(function(){
        
         return `
         <div class="agradecimento">
-            <h2 class="header">Tudo Certo!</h2>
+            <h3 class="header">Tudo Certo!</h3>
             <div class="card horizontal">
             <div class="card-image">
                 <img src="http://www.brasilengenharia.com/portal/images/stories/noticias/construcao/vedacit_feicon.jpg">
